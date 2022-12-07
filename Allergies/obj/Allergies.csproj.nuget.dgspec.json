@@ -1,32 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yodel\\Desktop\\ft-bootcamp\\CSharp and DotNet\\Allergies\\Allergies\\Allergies.csproj": {}
+    "/Users/robertonstott/Desktop/allergies/Allergies/Allergies.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yodel\\Desktop\\ft-bootcamp\\CSharp and DotNet\\Allergies\\Allergies\\Allergies.csproj": {
+    "/Users/robertonstott/Desktop/allergies/Allergies/Allergies.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yodel\\Desktop\\ft-bootcamp\\CSharp and DotNet\\Allergies\\Allergies\\Allergies.csproj",
+        "projectUniqueName": "/Users/robertonstott/Desktop/allergies/Allergies/Allergies.csproj",
         "projectName": "Allergies",
-        "projectPath": "C:\\Users\\yodel\\Desktop\\ft-bootcamp\\CSharp and DotNet\\Allergies\\Allergies\\Allergies.csproj",
-        "packagesPath": "C:\\Users\\yodel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yodel\\Desktop\\ft-bootcamp\\CSharp and DotNet\\Allergies\\Allergies\\obj\\",
+        "projectPath": "/Users/robertonstott/Desktop/allergies/Allergies/Allergies.csproj",
+        "packagesPath": "/Users/robertonstott/.nuget/packages/",
+        "outputPath": "/Users/robertonstott/Desktop/allergies/Allergies/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "X:\\Program Files\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\yodel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/robertonstott/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -60,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }

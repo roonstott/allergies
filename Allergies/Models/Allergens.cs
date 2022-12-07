@@ -40,21 +40,31 @@ namespace Allergies.Models
     }
 
     List<int> allScores = new List<int> {1,2,4,8,16,32,64,128};
-    List<int> highFirst = new List<int> {128, 64, 32, 16, 8, 4, 2, 1};
     List<string> allAllergens = new List<string> { "eggs", "peanuts", "shellfish", "strawberries", "tomatoes", "chocolate", "pollen", "cats" };
 
-    List<string> allergens = new List<string> { };
+    List<string> allergens = new List<string> {};
 
     public int Highest(int scoreCtr)
-    {
-
+    {      
       int scoreCounter = scoreCtr;
+      int highestPosition = allScores.Count -1;
+      
       for (int index = 0; index < allScores.Count; index++)
-      {
-        if (allScores[index] == scoreCounter)
+      { 
+        if (allScores[highestPosition] <= scoreCounter)
+          {
+            allergens.Add(allAllergens[highestPosition]);
+            scoreCounter = scoreCounter - allScores[highestPosition];
+            allAllergens.Remove(allAllergens[highestPosition]);
+            allScores.Remove(allScores[highestPosition]);
+            break;
+          }
+
+        else if (allScores[index] == scoreCounter)
         {
-          allergens.Add(allergies[index]);
+          allergens.Add(allAllergens[index]);
           scoreCounter = scoreCounter - allScores[index];
+          allAllergens.Remove(allAllergens[index]);
           allScores.Remove(allScores[index]);
           break;
         }
@@ -64,14 +74,6 @@ namespace Allergies.Models
           scoreCounter = scoreCounter - allScores[index - 1];
           allAllergens.Remove(allAllergens[index - 1]);
           allScores.Remove(allScores[index - 1]);
-          break;
-        }
-        else if (scoreCounter >= 128)
-        {
-          allergens.Add(allAllergens[index]);
-          scoreCounter = scoreCounter - allScores[index];
-          allAllergens.Remove(allAllergens[index]);
-          allScores.Remove(allScores[index]);
           break;
         }
       }

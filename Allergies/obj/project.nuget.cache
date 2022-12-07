@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MgJyv68kzNLparhhHSqGY1ByOElh+sLyyKeArD+IsTrTYx8d7u7L81MWWyf5W4RIi+rca3splFjaS/7ZUpL+2w==",
+  "dgSpecHash": "sUC9T5o/S4HXeRQmAC+Iy0o85bgP/OmJ03sGGX4E89zM6i08FR4UNUfLYxOTn//7Yo/yDo2Bz4A5c7dDcEXfGA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\yodel\\Desktop\\ft-bootcamp\\CSharp and DotNet\\Allergies\\Allergies\\Allergies.csproj",
+  "projectFilePath": "/Users/robertonstott/Desktop/allergies/Allergies/Allergies.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
